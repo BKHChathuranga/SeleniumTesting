@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcase.ProductCartQuantityUpdate">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="AddToCart"/>
+        </methods>
+      </class> <!-- testcase.ProductCartQuantityUpdate -->
+      <class name="testcase.CurrencyChange">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="changeCurrencyType"/>
+        </methods>
+      </class> <!-- testcase.CurrencyChange -->
+      <class name="testcase.PinkGreenColorQuantityIncrease">
+        <methods>
+          <include name="changeQuantityWithGreenAndPink"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.PinkGreenColorQuantityIncrease -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
