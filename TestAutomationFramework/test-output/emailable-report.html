@@ -9,19 +9,24 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">81,121</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">221,707</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcase.CurrencyChange</td><td><a href="#m0">changeCurrencyType</a></td><td rowspan="1">1699040064949</td><td rowspan="1">2992</td></tr><tr class="failedodd"><td rowspan="1">testcase.PinkGreenColorQuantityIncrease</td><td><a href="#m1">changeQuantityWithGreenAndPink</a></td><td rowspan="1">1699040050949</td><td rowspan="1">6169</td></tr><tr class="failedeven"><td rowspan="1">testcase.ProductCartQuantityUpdate</td><td><a href="#m2">AddToCart</a></td><td rowspan="1">1699040115508</td><td rowspan="1">6716</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcase.PostComment</td><td><a href="#m3">addCommentUnderProduct</a></td><td rowspan="1">1699040075877</td><td rowspan="1">2675</td></tr><tr class="passedodd"><td rowspan="1">testcase.PriceFilter</td><td><a href="#m4">ApplyPriceFilter</a></td><td rowspan="1">1699040087435</td><td rowspan="1">6559</td></tr><tr class="passedeven"><td rowspan="1">testcase.UpdateProductCartQuantityIntoTwo</td><td><a href="#m5">AddToCart</a></td><td rowspan="1">1699040102107</td><td rowspan="1">5270</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcase.CartPageTest</td><td><a href="#m0">increaseCartItemQuantityIntoThree</a></td><td rowspan="1">1699896704611</td><td rowspan="1">8231</td></tr><tr class="failedodd"><td rowspan="2">testcase.ProductDetailsPageTest</td><td><a href="#m1">changeCurrencyType</a></td><td rowspan="1">1699896821697</td><td rowspan="1">4796</td></tr><tr class="failedodd"><td><a href="#m2">changeQuantityWithGreenAndPink</a></td><td rowspan="1">1699896886642</td><td rowspan="1">17907</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcase.CartPageTest</td><td><a href="#m3">increaseCartItemQuantityIntoTwo</a></td><td rowspan="1">1699896741075</td><td rowspan="1">6660</td></tr><tr class="passedodd"><td rowspan="2">testcase.ProductDetailsPageTest</td><td><a href="#m4">ApplyPriceFilter</a></td><td rowspan="1">1699896761383</td><td rowspan="1">23626</td></tr><tr class="passedodd"><td><a href="#m5">addCommentUnderProduct</a></td><td rowspan="1">1699896797515</td><td rowspan="1">2062</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testcase.CurrencyChange#changeCurrencyType</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;select name=&quot;ec_currency_conversion&quot; id=&quot;ec_currency_conversion&quot; class=&quot;ec_currency_select&quot; data-gtm-form-interact-field-id=&quot;0&quot;&gt;...&lt;/select&gt; is not clickable at point (869, 157). Other element would receive the click: &lt;div class=&quot;academy-bug-info-overlay&quot; style=&quot;background: rgba(0, 0, 0, 0.8); z-index: 100000; position: fixed; top: 0; left: 0; height:1861px; width:1019px;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=119.0.6045.106)
+<h2>Test</h2><h3 id="m0">testcase.CartPageTest#increaseCartItemQuantityIntoThree</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Quantity verification failed expected [3] but found [2]
+	at testcase.CartPageTest.increaseCartItemQuantityIntoThree(CartPageTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcase.ProductDetailsPageTest#changeCurrencyType</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;select name=&quot;ec_currency_conversion&quot; id=&quot;ec_currency_conversion&quot; class=&quot;ec_currency_select&quot; data-gtm-form-interact-field-id=&quot;0&quot;&gt;...&lt;/select&gt; is not clickable at point (869, 157). Other element would receive the click: &lt;div class=&quot;academy-bug-info-overlay&quot; style=&quot;background: rgba(0, 0, 0, 0.8); z-index: 100000; position: fixed; top: 0; left: 0; height:1861px; width:1019px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=119.0.6045.124)
 Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6fdd3c65da68156f64e6d56bfa175ed9, clickElement {id=9F2A30580DDE8FE7B742C5D11B4C075B_element_39}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\HASHAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52380/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (6fdd3c65da68156f64e6d56bfa175ed9)] -&gt; id: ec_currency_conversion]
-Session ID: 6fdd3c65da68156f64e6d56bfa175ed9
+Command: [ecc232d891705d797d5d76468e87f709, clickElement {id=4F15DADE369BB752B339E3D0B253A621_element_40}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\HASHAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60650/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ecc232d891705d797d5d76468e87f709)] -&gt; id: ec_currency_conversion]
+Session ID: ecc232d891705d797d5d76468e87f709
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -31,18 +36,18 @@ Session ID: 6fdd3c65da68156f64e6d56bfa175ed9
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at testcase.CurrencyChange.changeCurrencyType(CurrencyChange.java:25)
+	at testcase.ProductDetailsPageTest.changeCurrencyType(ProductDetailsPageTest.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testcase.PinkGreenColorQuantityIncrease#changeQuantityWithGreenAndPink</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;ADD TO CART&quot; onclick=&quot;return ec_details_add_to_cart_31( );&quot;&gt; is not clickable at point (551, 633). Other element would receive the click: &lt;div class=&quot;academy-bug-info-overlay&quot; style=&quot;background: rgba(0, 0, 0, 0.8); z-index: 100000; position: fixed; top: 0; left: 0; height:1861px; width:1019px;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=119.0.6045.106)
+<h3 id="m2">testcase.ProductDetailsPageTest#changeQuantityWithGreenAndPink</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;ADD TO CART&quot; onclick=&quot;return ec_details_add_to_cart_31( );&quot;&gt; is not clickable at point (551, 633). Other element would receive the click: &lt;div class=&quot;academy-bug-info-overlay&quot; style=&quot;background: rgba(0, 0, 0, 0.8); z-index: 100000; position: fixed; top: 0; left: 0; height:1861px; width:1019px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=119.0.6045.124)
 Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ff1dd341e357661732e7d1f04a5114da, clickElement {id=BD75ADE055DA025A8DBF9C74643BB233_element_47}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\HASHAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52337/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ff1dd341e357661732e7d1f04a5114da)] -&gt; xpath: //input[@value=&apos;ADD TO CART&apos;]]
-Session ID: ff1dd341e357661732e7d1f04a5114da
+Command: [da7cebb649132ecd0d398b1be1facaab, clickElement {id=835D11A619D758D5557755D644FD0C8B_element_44}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\HASHAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60683/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (da7cebb649132ecd0d398b1be1facaab)] -&gt; xpath: //input[@value=&apos;ADD TO CART&apos;]]
+Session ID: da7cebb649132ecd0d398b1be1facaab
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -53,16 +58,11 @@ Session ID: ff1dd341e357661732e7d1f04a5114da
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
 	at base.ProductDetailsPage.clickAddToCartButton(ProductDetailsPage.java:41)
-	at testcase.PinkGreenColorQuantityIncrease.changeQuantityWithGreenAndPink(PinkGreenColorQuantityIncrease.java:26)
+	at testcase.ProductDetailsPageTest.changeQuantityWithGreenAndPink(ProductDetailsPageTest.java:40)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testcase.ProductCartQuantityUpdate#AddToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
-	Quantity verification failed expected [3] but found [2]
-	at testcase.ProductCartQuantityUpdate.AddToCart(ProductCartQuantityUpdate.java:45)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testcase.PostComment#addCommentUnderProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testcase.PriceFilter#ApplyPriceFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testcase.UpdateProductCartQuantityIntoTwo#AddToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcase.CartPageTest#increaseCartItemQuantityIntoTwo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcase.ProductDetailsPageTest#ApplyPriceFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcase.ProductDetailsPageTest#addCommentUnderProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

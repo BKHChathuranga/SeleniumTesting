@@ -3,13 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testcase.PinkGreenColorQuantityIncrease"/>
-      <class name="testcase.CurrencyChange"/>
+      <class name="testcase.CartPageTest"/>
       <class name="base.BaseTest"/>
-      <class name="testcase.PostComment"/>
-      <class name="testcase.PriceFilter"/>
-      <class name="testcase.UpdateProductCartQuantityIntoTwo"/>
-      <class name="testcase.ProductCartQuantityUpdate"/>
+      <class name="testcase.ProductDetailsPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
